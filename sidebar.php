@@ -9,5 +9,7 @@
       <p>Please add widgets via the admin area</p>
 
     <?php endif; ?>
+    
+  </div>
 
 </div><!-- /.blog-sidebar -->

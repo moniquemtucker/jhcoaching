@@ -13,15 +13,15 @@
     <div class="carousel-inner">
       <div class="item active" style="width: 50%;">
         <span><i class="fa fa-leaf"></i></span>
-        <p>What do people who thrive in their lives and careers do differently?</p>
+        <p><?php the_field('carousel1'); ?></p>
       </div>
       <div class="item" style="width: 50%;">
         <span><i class="fa fa-university"></i></span>
-        <p>Thanks to research from positive psychology, we no longer have to guess.</p>
+        <p><?php the_field('carousel2'); ?></p>
       </div>
       <div class="item" style="width: 50%;">
         <span><i class="fa fa-line-chart"></i></span>
-        <p>I use proven insights and techniques to help clients attain more clarity, happiness, and success.</p>
+        <p><?php the_field('carousel3'); ?></p>
       </div>
   </div>
   <!-- Controls -->
