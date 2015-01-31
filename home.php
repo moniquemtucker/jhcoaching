@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-sm-8 blog-main">
 
-        <div class="blog-post">
+        <div <?php post_class('post'); ?>>
 
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -25,7 +25,7 @@
           
           <?php endwhile; else : ?>
   
-            <p><?php _e( 'Sorry, no pages found.' ); ?></p>
+            <p><?php _e( 'Sorry, no pages found.', 'jh-career-coaching' ); ?></p>
 
           <?php endif; ?>   
 

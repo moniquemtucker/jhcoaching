@@ -33,7 +33,7 @@
 
           <?php endwhile; else : ?>
   
-            <p><?php _e( 'Sorry, no pages found.' ); ?></p>
+            <p><?php _e( 'Sorry, no pages found.', 'jh-career-coaching' ); ?></p>
 
 
           <?php endif; ?>   

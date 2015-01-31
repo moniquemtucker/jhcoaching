@@ -13,7 +13,7 @@ function register_theme_menus() {
 
 	register_nav_menus( 
 		array(
-			'primary-menu'	=> __( 'Primary Menu' )
+			'primary-menu'	=> __( 'Primary Menu', 'jh-career-coaching' )
 		)
 	);
 

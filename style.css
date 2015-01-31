@@ -1,3 +1,4 @@
+
 /*
 Theme Name: James Heller Career Coaching Theme
 Author: Monique Tucker
@@ -6,7 +7,7 @@ Description: A post modern, simple, responsive portfolio theme.
 Version: 1.0
 License: MIT License
 License URI: http://opensource.org/licenses/MIT
-Tags: one-column, two-columns, three-columns, right-sidebar, flexible-width, fluid-layout, responsive-layout, custom-menu, featured-images
+Tags: one-column, two-columns, three-columns, right-sidebar, fluid-layout, responsive-layout, custom-menu, featured-images
  
 */
 
@@ -14,7 +15,6 @@ Tags: one-column, two-columns, three-columns, right-sidebar, flexible-width, flu
 .container-fluid {
     color: white;
 }
-
 
 .navbar {
     padding-top: 30px;
@@ -616,4 +616,88 @@ Tags: one-column, two-columns, three-columns, right-sidebar, flexible-width, flu
 
 .fontawesome-text {
     display: none;
+}
+
+/* From default themes */
+/* Alignment */
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wp-caption {
+    max-width: 100%;
+}
+
+.wp-caption {
+    margin-bottom: 24px;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin: 0;
+}
+
+.wp-caption {
+    color: #767676;
+}
+
+.wp-caption-text {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    box-sizing:         border-box;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 1.5;
+    margin: 9px 0;
+}
+
+.sticky .entry-date {
+    display: none;
+}
+
+.gallery-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    box-sizing:         border-box;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 0;
+    max-height: 50%;
+    opacity: 0;
+    padding: 6px 8px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    width: 100%;
+}
+
+.gallery-caption:before {
+    content: "";
+    height: 100%;
+    min-height: 49px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.bypostauthor > article .fn:before {
+    content: "\f408";
+    margin: 0 2px 0 -2px;
+    position: relative;
+    top: -1px;
 }
