@@ -72,6 +72,14 @@ Tags: black, white, light, one-column, two-columns, left-sidebar, flexible-width
     color: white;
 }
 
+/* Adding color for active nav bar menu item */
+.container-fluid li.current_page_item a{
+    color: #ADADAD;
+    text-shadow: none;
+    font-weight: bold;
+    background-color: transparent;
+}
+
 #home-schedule {
     text-align: right;
 }
