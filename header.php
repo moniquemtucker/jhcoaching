@@ -5,7 +5,6 @@
   <title><?php wp_title('|', true, 'right'); ?><?php echo get_bloginfo('name'); ?></title>
   
   <?php wp_head(); ?>
-
 </head>
 
 <body <?php body_class(); ?>>
@@ -21,7 +20,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="" title="Home">JAMES HELLER <p>Positive Psychology Coaching</p></a>
+        <a class="navbar-brand" href="<?php bloginfo('url'); ?>" title="Home">JAMES HELLER <p>Positive Psychology Coaching</p></a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -53,8 +52,8 @@
     <?php get_template_part('content', 'button'); ?>
 
     <div class="main "> <!--large main picture-->
-      <p>Trying to figure out your career path / Feeling stuck?</p>
-      <p id="pp-caption">Find clarity with positive psychology coaching.</p>
+      <p><?php the_field('jumbotron'); ?></p> 
+      <p id="pp-caption"><?php the_field('caption'); ?></p>
       <h4><a href="#pp-carousel"><i class="fa fa-chevron-down" id="chevron"></i></a></h4>
     </div>
 

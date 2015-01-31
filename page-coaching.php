@@ -14,7 +14,7 @@ Template Name: Coaching
       <h2 id="desc-head">This page describes the general steps of my coaching process, although when we work together
           we'll develop a fully customized plan that focuses on just the areas most important to you.</h2>
     </div>
-    <p id="steps-head"><a href="/fees.html">Many of my clients are able to get clarity and results in just
+    <p id="steps-head"><a href="<?php bloginfo('url'); ?>/fees">Many of my clients are able to get clarity and results in just
         4 to 6 sessions. Get started with a free consultation.</a></p>
     <div class ="container" id="steps-row">
       <div class="row">

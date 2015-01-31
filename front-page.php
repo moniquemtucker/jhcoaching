@@ -56,7 +56,7 @@
       </div>
       <div class="row">
         <div class="col-md-12">
-          <p id="learn-more"><a href="/careerandlifecoaching.html">Learn More</a></p>
+          <p id="learn-more"><a href="<?php bloginfo('url'); ?>/career-life-coaching">Learn More</a></p>
         </div>
       </div>
     </div>
