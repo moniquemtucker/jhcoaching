@@ -35,13 +35,15 @@ function wpt_create_widget( $name, $id, $description ) {
 
 wpt_create_widget( 'Page Sidebar', 'page', 'Displays on the side of pages with a sidebar' );
 wpt_create_widget( 'Blog Sidebar', 'blog', 'Displays on the side of pages in the blog section' );
+
 function wpt_theme_styles() {
 	wp_enqueue_style( 'bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' );	
 	wp_enqueue_style( 'fontawesome_css', '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' );	
 	wp_enqueue_style( 'googlefont_css', 'http://fonts.googleapis.com/css?family=Montserrat|Lato|Open+Sans|Droid+Sans|Libre+Baskerville:400,400italic' );
 	wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
-
 }
+
+
 add_action( 'wp_enqueue_scripts', 'wpt_theme_styles');
 
 function wpt_theme_js() {
