@@ -16,17 +16,17 @@
 
           <p><?php echo strip_tags (get_the_excerpt() ); ?></p>
 
+          <?php endwhile; else : ?>
+  
+            <p><?php _e( 'Sorry, no pages found.', 'jh-career-coaching' ); ?></p>
+
+          <?php endif; ?>  
+
           <ul class="pager">
             <li><?php next_posts_link( 'Older posts' ); ?></li>
             <li><?php previous_posts_link( 'Newer posts' ); ?></li>
           </ul>
 
-          <?php endwhile; else : ?>
-  
-            <p><?php _e( 'Sorry, no pages found.' ); ?></p>
-
-
-          <?php endif; ?>   
         </div><!-- /.blog-post -->
 
       </div><!-- /.blog-main -->

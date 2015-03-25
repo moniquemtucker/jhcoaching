@@ -43,7 +43,7 @@ function wpt_theme_styles() {
 	wp_enqueue_style( 'bootstrap_css', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css' );	
 	wp_enqueue_style( 'fontawesome_css', '//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' );	
 	wp_enqueue_style( 'googlefont_css', 'http://fonts.googleapis.com/css?family=Montserrat|Lato|Open+Sans|Droid+Sans|Libre+Baskerville:400,400italic' );
-	wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.min.css' );
 }
 
 
@@ -52,7 +52,7 @@ add_action( 'wp_enqueue_scripts', 'wpt_theme_styles');
 // Load Theme JS
 function wpt_theme_js() {
 	wp_enqueue_script( 'bootstrap_js', 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js', array('jquery'), '', true  );
-	wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/coaching.js', array( 'jquery' ), '', true );
+	wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/coaching.min.js', array( 'jquery' ), '', true );
 
 }
 add_action( 'wp_enqueue_scripts', 'wpt_theme_js')

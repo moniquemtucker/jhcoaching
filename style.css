@@ -1,6 +1,5 @@
-
 /*
-Theme Name: James Heller Career Coaching Theme
+Theme Name: Art James Heller Career Coaching Theme
 Author: Monique Tucker
 Author URI: http://moniquemtucker.github.io
 Description: A post modern, simple, responsive portfolio theme.
@@ -20,7 +19,7 @@ Tags: one-column, two-columns, three-columns, right-sidebar, fluid-layout, respo
     padding-top: 30px;
     height: 100%;
     width: 100%;
-    background: url('http://localhost/jamesfarleyheller.com/wp-content/themes/jh-career-coaching/images/reservepic.jpg') no-repeat center center fixed;
+    background: url('http://artjamesheller.com/wp-content/themes/jh-career-coaching/images/reservepic_sm.jpg') no-repeat center center fixed;
     background-size: cover;
     color: white;
     margin-bottom: 0;
@@ -33,7 +32,7 @@ Tags: one-column, two-columns, three-columns, right-sidebar, fluid-layout, respo
 
 .navbar-brand {
     height: 100px;
-    font-size: 46px;
+    font-size: 36px;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
@@ -593,17 +592,17 @@ Tags: one-column, two-columns, three-columns, right-sidebar, fluid-layout, respo
     /* home page */
     .navbar-brand {
         height: 80px;
-        font-size: 30px;
+        font-size: 20px;
     }
     .navbar-brand p {
         font-size: 14px;
         padding-top: 5px;
     }
     .main {
-        font-size: 40px;
+        font-size: 20px;
     }
     #pp-caption {
-        font-size: 30px;
+        font-size: 14px;
     }
     .item, .item.active {
         font-size: 16px;

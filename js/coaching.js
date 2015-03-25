@@ -19,5 +19,14 @@
         $(this).toggleClass("active-fees-plans-head");
     });
 
+    // to control footer to appear at bottom of the screen
+   var docHeight = $(window).height();
+   var footerHeight = $('.all-footer').height();
+   var footerTop = $('.all-footer').position().top + footerHeight;
+
+   if (footerTop < docHeight) {
+    $('.all-footer').css('margin-top', 10+ (docHeight - footerTop) + 'px');
+   }
+
 });
 

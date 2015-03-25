@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-  <meta charset="utf-8">  
-  <title><?php wp_title('|', true, 'right'); ?><?php echo get_bloginfo('name'); ?></title>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="2iZEQWjgvuhTm41UTv7INYfYTPKiypC6njamdBjtA6E" />  
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <title><?php wp_title(''); ?></title>
   
   <?php wp_head(); ?>
 </head>
@@ -20,7 +22,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="<?php bloginfo('url'); ?>" title="Home">JAMES HELLER <p>Positive Psychology Coaching</p></a>
+        <a class="navbar-brand" href="<?php bloginfo('url'); ?>" title="Home">ART JAMES HELLER <p>Positive Psychology Coaching</p></a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -39,7 +41,7 @@
           <li><a href="/careerandlifecoaching.html">Career + Life Coaching</a></li>
           <li><a href="/aboutme.html" id="on-this-page">About</a></li>
           <li><a href="/fees.html">Fees</a></li>
-          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/blog">Blog</a></li>
           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
           <li><a href="#"><i class="fa fa-google-plus"></i></a></li>

@@ -21,6 +21,9 @@
             <?php endif; ?>
 
             <?php the_content(); ?>
+            <br>
+            <br>
+            <p><em><?php the_author_meta('description'); ?></em></p>
             <?php comments_template(); ?>
 
           <p>

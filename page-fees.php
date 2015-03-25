@@ -11,7 +11,7 @@ Template Name: Fees
   <div id="fees-container">
     <div id="fees-intro">
       <h4>Choose the option that's best for you following your free consultation.</h4>
-      <div id="fees-schedule"><a href="mailto:jfh.215@gmail.com?Subject=Schedule%20Consultation" target="_blank" title="Email Me"><button type="button" class="btn btn-default btn-lg">
+      <div id="fees-schedule"><a href="mailto:artjamesheller@gmail.com?Subject=Schedule%20Consultation" target="_blank" title="Email Me"><button type="button" class="btn btn-default btn-lg">
           schedule a free consultation</button></a>
       </div>
 
